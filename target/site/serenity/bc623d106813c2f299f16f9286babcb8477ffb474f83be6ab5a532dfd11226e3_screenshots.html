@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b9943358a7e00e94538140a35e341a4637c4bb1338278c574dd5c5f8d3ef86fe.html">Probar La Busqueda De Productos Desde Excel</a></span>
+                > <span class="truncate-60"><a
+                    href="bc623d106813c2f299f16f9286babcb8477ffb474f83be6ab5a532dfd11226e3.html">Busqueda de producto en HomePage </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-08-2022 12:02</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Probar La Busqueda De Productos Desde Excel</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Busqueda de producto en HomePage
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given estoy en la pagina Home de Zippo &lt;Url&gt;<br>When busco un producto en la pagina<br>Then valido que se realice la busqueda</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" Example: {Url=https://www.zippo.com.co}" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" Given estoy en la pagina Home de Zippo https://www.zippo.com.co" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" When busco un producto en la pagina" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  buscar excel" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  wait" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  wait (completed)" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  enters 'Calavera' into Barra de busqueda del HomePage" width="1920"/>
+                <img src="c74004184dd9f6d156bc770dd6df5b6c905e3677deeb3223cf8eef3cbc9c1a3d.png" title="  enters 'Calavera' into Barra de busqueda del HomePage (completed)" width="1920"/>
+                <img src="c74004184dd9f6d156bc770dd6df5b6c905e3677deeb3223cf8eef3cbc9c1a3d.png" title="  enters ENTER into Barra de busqueda del HomePage" width="1920"/>
+                <img src="29037eb9fac3d547844c19e885447b498347565ee1040a2897ad71663a71b37b.png" title="  enters ENTER into Barra de busqueda del HomePage (completed)" width="1920"/>
+                <img src="29037eb9fac3d547844c19e885447b498347565ee1040a2897ad71663a71b37b.png" title="  wait" width="1920"/>
+                <img src="29037eb9fac3d547844c19e885447b498347565ee1040a2897ad71663a71b37b.png" title="  wait (completed)" width="1920"/>
+                <img src="29037eb9fac3d547844c19e885447b498347565ee1040a2897ad71663a71b37b.png" title="  clicks on Primer producto de la busqueda realizada" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title="  clicks on Primer producto de la busqueda realizada (completed)" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title="  buscar excel (completed)" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title=" When busco un producto en la pagina (completed)" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title=" Then valido que se realice la busqueda" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title=" Then Nombre del producto obtenido de la busqueda realizada should be an element containing 'Calavera'" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title=" Then Nombre del producto obtenido de la busqueda realizada should be an element containing 'Calavera' (completed)" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title=" Then valido que se realice la busqueda (completed)" width="1920"/>
+                <img src="32d376d651f9a1e5b623fb4a87364f6b8765ba052db2a1c0a2ca8cba07acfc61.png" title=" Example: {Url=https://www.zippo.com.co} (completed)" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" Example: {Url=https://www.zippo.com.co}" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" Given estoy en la pagina Home de Zippo https://www.zippo.com.co" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" When busco un producto en la pagina" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  buscar excel" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  wait" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  wait (completed)" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  enters 'Dragon' into Barra de busqueda del HomePage" width="1920"/>
+                <img src="a5f814937b128661e47fa2a426c2987988d721472942d875dcb1cd62d872edd0.png" title="  enters 'Dragon' into Barra de busqueda del HomePage (completed)" width="1920"/>
+                <img src="a5f814937b128661e47fa2a426c2987988d721472942d875dcb1cd62d872edd0.png" title="  enters ENTER into Barra de busqueda del HomePage" width="1920"/>
+                <img src="35d334eb93e88b7dad433fb8ad44ff96e6f8fa390eed44a0b8886f00b7e9734a.png" title="  enters ENTER into Barra de busqueda del HomePage (completed)" width="1920"/>
+                <img src="35d334eb93e88b7dad433fb8ad44ff96e6f8fa390eed44a0b8886f00b7e9734a.png" title="  wait" width="1920"/>
+                <img src="35d334eb93e88b7dad433fb8ad44ff96e6f8fa390eed44a0b8886f00b7e9734a.png" title="  wait (completed)" width="1920"/>
+                <img src="35d334eb93e88b7dad433fb8ad44ff96e6f8fa390eed44a0b8886f00b7e9734a.png" title="  clicks on Primer producto de la busqueda realizada" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title="  clicks on Primer producto de la busqueda realizada (completed)" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title="  buscar excel (completed)" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title=" When busco un producto en la pagina (completed)" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title=" Then valido que se realice la busqueda" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title=" Then Nombre del producto obtenido de la busqueda realizada should be an element containing 'Dragon'" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title=" Then Nombre del producto obtenido de la busqueda realizada should be an element containing 'Dragon' (completed)" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title=" Then valido que se realice la busqueda (completed)" width="1920"/>
+                <img src="de0d51ba7fc57f4575af5085794ca2cc1926be18073d36284862c882de685cc8.png" title=" Example: {Url=https://www.zippo.com.co} (completed)" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" Example: {Url=https://www.zippo.com.co}" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" Given estoy en la pagina Home de Zippo https://www.zippo.com.co" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title=" When busco un producto en la pagina" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  buscar excel" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  wait" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  wait (completed)" width="1920"/>
+                <img src="ecab41a50a6f91973c9bfb914b578db5260602baa2525461ba2f750e8a368072.png" title="  enters 'Estuche' into Barra de busqueda del HomePage" width="1920"/>
+                <img src="14a8cbea0323df021dac7411feaf1cbd8a47a6b80a87be54258857f2d4ce61ec.png" title="  enters 'Estuche' into Barra de busqueda del HomePage (completed)" width="1920"/>
+                <img src="14a8cbea0323df021dac7411feaf1cbd8a47a6b80a87be54258857f2d4ce61ec.png" title="  enters ENTER into Barra de busqueda del HomePage" width="1920"/>
+                <img src="8f3ac6ce4f6e3efa43f4664ec8da07dfd40b6162b14763d2a840d9b1aa39d011.png" title="  enters ENTER into Barra de busqueda del HomePage (completed)" width="1920"/>
+                <img src="8f3ac6ce4f6e3efa43f4664ec8da07dfd40b6162b14763d2a840d9b1aa39d011.png" title="  wait" width="1920"/>
+                <img src="8f3ac6ce4f6e3efa43f4664ec8da07dfd40b6162b14763d2a840d9b1aa39d011.png" title="  wait (completed)" width="1920"/>
+                <img src="8f3ac6ce4f6e3efa43f4664ec8da07dfd40b6162b14763d2a840d9b1aa39d011.png" title="  clicks on Primer producto de la busqueda realizada" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title="  clicks on Primer producto de la busqueda realizada (completed)" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title="  buscar excel (completed)" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title=" When busco un producto en la pagina (completed)" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title=" Then valido que se realice la busqueda" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title=" Then Nombre del producto obtenido de la busqueda realizada should be an element containing 'Estuche'" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title=" Then Nombre del producto obtenido de la busqueda realizada should be an element containing 'Estuche' (completed)" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title=" Then valido que se realice la busqueda (completed)" width="1920"/>
+                <img src="4b82c246fc62cc6c96f19dd13203725b5019f620c39cbf33f3012df712b3515f.png" title=" Example: {Url=https://www.zippo.com.co} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
